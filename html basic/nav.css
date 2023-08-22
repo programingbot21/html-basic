@@ -1,0 +1,33 @@
+ul{
+    background-color: rgb(167, 107, 28);
+    
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    
+    color: black;
+}
+li{
+    list-style-type: none;
+    background-color: white;
+    /* display: inline; */
+    /* justify-content: center; */
+}
+.outer
+{
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner
+{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+}
